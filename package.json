@@ -1,0 +1,25 @@
+{
+  "name": "omnicon-mdi-svg",
+  "version": "1.0.0",
+  "description": "This plugin is created to work with omnicon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@mdi/svg": "^6.5.95"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omncn/omnicon-mdi-svg.git"
+  },
+  "keywords": [
+    "plugin"
+  ],
+  "author": "Vittorio Vittori",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omncn/omnicon-mdi-svg/issues"
+  },
+  "homepage": "https://github.com/omncn/omnicon-mdi-svg#readme"
+}
