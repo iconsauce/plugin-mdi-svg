@@ -1,5 +1,5 @@
 {
-  "name": "omnicon-mdi-svg",
+  "name": "@iconsauce/plugin-mdi-svg",
   "version": "1.0.0",
   "description": "This plugin is created to work with omnicon",
   "main": "index.js",
@@ -11,15 +11,27 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/omncn/omnicon-mdi-svg.git"
+    "url": "git+https://github.com/iconsauce/plugin-mdi-svg.git"
   },
   "keywords": [
     "plugin"
   ],
-  "author": "Vittorio Vittori",
+  "author": {
+    "email": "vittorio.vittori@maggioli.it",
+    "name": "Vittorio Vittori",
+    "role": "Design System Architect",
+    "url": "https://github.com/vitto"
+  },
+  "contributors": [
+    {
+      "name": "Nicola Tamburini",
+      "email": "nicola.tamburini@maggioli.it",
+      "role": "Software Engineer"
+    }
+  ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/omncn/omnicon-mdi-svg/issues"
+    "url": "https://github.com/iconsauce/plugin-mdi-svg/issues"
   },
-  "homepage": "https://github.com/omncn/omnicon-mdi-svg#readme"
+  "homepage": "https://github.com/iconsauce/plugin-mdi-svg#readme"
 }
