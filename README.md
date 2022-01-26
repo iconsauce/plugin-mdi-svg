@@ -9,7 +9,7 @@ module.exports = {
   ],
   fontSize: '24px',
   plugin: [
-    require('./plugin/mdi-icons.plugin.js'),
+    require('@iconsauce/plugin-mdi-svg'),
   ],
 }
 ```
@@ -54,5 +54,4 @@ This plug-in will generate only icons used:
 .mdi\/gondola::before { content: "\ea03"; }
 .mdi\/grass::before { content: "\ea04"; }
 .mdi\/harddisk::before { content: "\ea05"; }
-
 ```
