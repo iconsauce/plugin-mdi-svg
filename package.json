@@ -1,7 +1,7 @@
 {
   "name": "@iconsauce/plugin-mdi-svg",
   "version": "1.0.0",
-  "description": "This plugin is created to work with omnicon",
+  "description": "This plugin is created to work with iconsauce",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
