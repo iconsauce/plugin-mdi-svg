@@ -1,7 +1,7 @@
 import { dirname } from 'path'
 import { IconsaucePlugin } from '@iconsauce/core/src/interface/plugin'
 
-export const googleMaterialIconsPlugin: IconsaucePlugin = {
+export const materialDesignIconsPlugin: IconsaucePlugin = {
   prefix: 'mdi',
   regex: {
     code: /(mdi)(\/{1}[a-z-]+){1,2}/gm,
