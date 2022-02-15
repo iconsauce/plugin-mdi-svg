@@ -1,13 +1,20 @@
 {
   "name": "@iconsauce/plugin-mdi-svg",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "This plugin is created to work with iconsauce",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rm -rf lib || true && tsc --declaration && mv build lib"
   },
   "dependencies": {
     "@mdi/svg": "^6.5.95"
+  },
+  "devDependencies": {
+    "@iconsauce/core": "0.1.2",
+    "@typescript-eslint/eslint-plugin": "^5.10.1",
+    "@typescript-eslint/parser": "^5.10.1",
+    "eslint": "^8.7.0",
+    "typescript": "^4.4.3"
   },
   "repository": {
     "type": "git",
