@@ -1,5 +1,5 @@
 import { dirname } from 'path'
-import { IconsaucePlugin } from '@iconsauce/core/src/interface/plugin'
+import { IconsaucePlugin } from '@iconsauce/plugin'
 
 export const materialDesignIconsPlugin: IconsaucePlugin = {
   prefix: 'mdi',
