@@ -1,5 +1,5 @@
 {
-  "name": "@iconsauce/plugin-mdi-svg",
+  "name": "@iconsauce/mdi-svg",
   "version": "1.0.0",
   "description": "This plugin is created to work with iconsauce",
   "main": "lib/index.js",

@@ -1,7 +1,7 @@
 import { dirname } from 'path'
 import { IconsaucePlugin } from '@iconsauce/plugin'
 
-export const materialDesignIconsPlugin: IconsaucePlugin = {
+export const mdiSvgPlugin: IconsaucePlugin = {
   prefix: 'mdi',
   regex: {
     code: /(mdi)(\/{1}[0-9a-z-]+){1,2}/gm,
