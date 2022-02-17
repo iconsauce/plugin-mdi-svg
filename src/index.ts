@@ -1,7 +1,7 @@
 import { dirname } from 'path'
 import { IconsaucePlugin } from '@iconsauce/plugin'
 
-export const mdiSvgPlugin: IconsaucePlugin = {
+const mdiSvgPlugin: IconsaucePlugin = {
   prefix: 'mdi',
   regex: {
     code: /(mdi)(\/{1}[0-9a-z-]+){1,2}/gm,
@@ -10,3 +10,5 @@ export const mdiSvgPlugin: IconsaucePlugin = {
   selector: (path: RegExpMatchArray) => `mdi/${path[2].replace(/[_]+/g, '-')}`,
   path: `${dirname(require.resolve('@mdi/svg/package.json'))}/**/*.svg`,
 }
+
+module.exports = mdiSvgPlugin
