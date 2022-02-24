@@ -2,6 +2,8 @@
 
 This plugin scrapes [Material Design Icons](https://materialdesignicons.com/) of [@mdi/svg](https://github.com/Templarian/MaterialDesign-SVG) from which contains SVG versions.
 
+For more infos go to [iconsauce docs][iconsauce-docs].
+
 ```js
 module.exports = {
   content: [
@@ -58,3 +60,5 @@ This plug-in will generate only icons used:
 .mdi\/grass::before { content: "\ea04" }
 .mdi\/harddisk::before { content: "\ea05" }
 ```
+
+[iconsauce-docs]: https://iconsauce.github.io/docs/
