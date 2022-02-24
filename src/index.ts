@@ -11,5 +11,5 @@ const mdiSvgPlugin: IconsaucePlugin = {
   path: `${dirname(require.resolve('@mdi/svg/package.json'))}/**/*.svg`,
 }
 
-export { mdiSvgPlugin }
+export default mdiSvgPlugin
 module.exports = mdiSvgPlugin
