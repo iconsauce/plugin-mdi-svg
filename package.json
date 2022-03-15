@@ -1,16 +1,17 @@
 {
   "name": "@iconsauce/mdi-svg",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "An iconsauce plugin to gather mdi SVG icons pack",
   "main": "lib/index.js",
   "scripts": {
-    "build": "tsc --declaration"
+    "build": "tsc --declaration",
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "@mdi/svg": "^6.5.95"
   },
   "devDependencies": {
-    "@iconsauce/core": "0.1.2",
+    "@iconsauce/core": "^1.1.0",
     "@iconsauce/plugin": "^0.0.1",
     "@typescript-eslint/eslint-plugin": "^5.10.1",
     "@typescript-eslint/parser": "^5.10.1",
