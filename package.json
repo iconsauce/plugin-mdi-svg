@@ -1,6 +1,6 @@
 {
   "name": "@iconsauce/mdi-svg",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "An iconsauce plugin to gather mdi SVG icons pack",
   "main": "lib/index.js",
   "scripts": {

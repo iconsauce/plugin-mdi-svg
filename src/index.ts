@@ -8,7 +8,7 @@ const mdiSvgPlugin: IconsaucePlugin = {
     lib: /([a-zA-Z_\-/]+\/([0-9a-zA-Z_-]+)\.svg)/,
   },
   selector: (path: RegExpMatchArray) => `mdi/${path[2].replace(/[_]+/g, '-')}`,
-  path: `${resolve('node_modules', '@mdi/svg')}/**/*.svg`,
+  path: `${resolve(__dirname, '../../../@mdi/svg')}/**/*.svg`,
 }
 
 export default mdiSvgPlugin
