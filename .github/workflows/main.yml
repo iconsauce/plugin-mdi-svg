@@ -1,0 +1,12 @@
+name: Publish Iconsauce plugin mdi-svg
+on:
+  workflow_dispatch:
+jobs:
+  build:
+    name: Build
+    uses: ./.github/workflows/build.yml
+  publish:
+    needs: [build]
+    name: Publish npm
+    uses: iconsauce/.github/.github/workflows/publish-npm.yml@main
+    secrets: inherit
