@@ -1,0 +1,18 @@
+name: Build
+on:
+  push:
+    branches:
+      - 'main'
+  pull_request:
+    branches:
+      - '**'
+  # makes this callable by other workflows
+  workflow_call:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: iconsauce/.github/.github/actions/setup-node@main
+      - run: npm run build
