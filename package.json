@@ -3,6 +3,10 @@
   "version": "1.1.0",
   "description": "An iconsauce plugin to gather mdi SVG icons pack",
   "main": "lib/index.js",
+  "types": "./lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "build": "tsc --declaration",
     "prepublishOnly": "npm run build"
